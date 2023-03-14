@@ -9,7 +9,7 @@ function Register() {
     <div className={styles.container}>
       <div className={styles.main}>
         <img
-          src="/image/decoratorMinions.png"
+          src="image/decoratorMinions.png"
           alt="decoratorMinions"
           className={styles.decorImage}
         />

@@ -11,15 +11,15 @@ function DownloadInfo() {
         <div className={styles.app}>
           <a href="/" target="_blank">
             <img
-              src="/image/downloadNintendoEShop.png"
+              src="image/downloadNintendoEShop.png"
               alt="downloadNintendoEShop"
             />
           </a>
           <a href="/" target="_blank">
-            <img src="/image/downloadMicrosoft.png" alt="downloadMicrosoft" />
+            <img src="image/downloadMicrosoft.png" alt="downloadMicrosoft" />
           </a>
           <a href="/" target="_blank">
-            <img src="/image/downloadSteam.png" alt="dowdownloadSteamnload" />
+            <img src="image/downloadSteam.png" alt="dowdownloadSteamnload" />
           </a>
         </div>
       </div>
