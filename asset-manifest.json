@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gameloft/static/css/main.85806e45.css",
-    "main.js": "/gameloft/static/js/main.8065fa80.js",
+    "main.js": "/gameloft/static/js/main.c895f3cc.js",
     "static/media/gameloftLogo.svg": "/gameloft/static/media/gameloftLogo.e3230b54927e1be7f59dae5723b4b858.svg",
     "static/media/socialYoutube.svg": "/gameloft/static/media/socialYoutube.3753aea35afd229e4c948cdd1f23b12a.svg",
     "static/media/socialLinkedIn.svg": "/gameloft/static/media/socialLinkedIn.b7ab601fca469a2567656efa3feaf6b9.svg",
@@ -23,10 +23,10 @@
     "static/media/arrowDown.svg": "/gameloft/static/media/arrowDown.4bdef5c48ac72b366889dde6408f4fc9.svg",
     "static/media/arrowRight.svg": "/gameloft/static/media/arrowRight.d14ccd5007cd134811119be8828f53bf.svg",
     "main.85806e45.css.map": "/gameloft/static/css/main.85806e45.css.map",
-    "main.8065fa80.js.map": "/gameloft/static/js/main.8065fa80.js.map"
+    "main.c895f3cc.js.map": "/gameloft/static/js/main.c895f3cc.js.map"
   },
   "entrypoints": [
     "static/css/main.85806e45.css",
-    "static/js/main.8065fa80.js"
+    "static/js/main.c895f3cc.js"
   ]
 }
