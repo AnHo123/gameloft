@@ -1,0 +1,102 @@
+@import "../../../styles";
+
+.container {
+  width: 250px;
+  border: 1px solid $colorPrimary;
+  border-radius: 3px;
+  overflow: hidden;
+
+  .inputField {
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 12px;
+    line-height: 15px;
+    color: $colorPrimary;
+    background-color: $colorBlueLight;
+    border: unset;
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus {
+      -webkit-text-fill-color: $colorPrimary;
+      -webkit-box-shadow: none;
+    }
+
+    &::placeholder {
+      font-size: 12px;
+      line-height: 15px;
+      color: $colorPrimary;
+    }
+
+    &:focus {
+      outline: unset;
+    }
+  }
+
+  &.checkbox {
+    border: unset;
+    border-radius: unset;
+
+    .label {
+      display: block;
+      position: relative;
+      padding-left: 20px;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+      .inputField {
+        position: absolute;
+        height: 0;
+        width: 0;
+        opacity: 0;
+        cursor: pointer;
+
+        &:checked ~ .checkmark {
+          &:after {
+            visibility: visible;
+          }
+        }
+      }
+
+      .checkmark {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        height: 11px;
+        width: 11px;
+        background-color: $colorWhite;
+        border: 1px solid $colorPrimary;
+        transition: $transitionCubic25;
+
+        &:after {
+          content: "";
+          position: absolute;
+          visibility: hidden;
+          left: 3px;
+          top: 1px;
+          width: 2px;
+          height: 4px;
+          border: solid $colorPrimary;
+          border-width: 0 2px 2px 0;
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+          transition: $transitionCubic25;
+        }
+      }
+
+      p {
+        text-align: justify;
+      }
+
+      &:hover {
+        .checkmark {
+          background-color: $colorBlueBaby;
+        }
+      }
+    }
+  }
+}

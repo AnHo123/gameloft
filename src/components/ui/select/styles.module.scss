@@ -1,0 +1,37 @@
+@import "../../../styles";
+
+.container {
+  @include flexCenter();
+  justify-content: space-between;
+  position: relative;
+  width: 250px;
+  border-radius: 3px;
+  border: 1px solid $colorPrimary;
+  background-color: $colorBlueLight;
+  overflow: hidden;
+
+  .select {
+    width: 100%;
+    font-size: 12px;
+    line-height: 15px;
+    color: $colorPrimary;
+    padding: 6px 10px;
+    outline: unset;
+    background-color: inherit;
+    border: unset;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    cursor: pointer;
+  }
+
+  .icon {
+    position: absolute;
+    width: 10px;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+    pointer-events: none;
+  }
+}

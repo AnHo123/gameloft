@@ -1,0 +1,12 @@
+@import "../../../styles";
+
+.container {
+  @include flexCenter();
+  vertical-align: middle;
+
+  .icon {
+    width: 11px;
+    height: 11px;
+    margin: 2px;
+  }
+}

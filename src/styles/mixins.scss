@@ -1,0 +1,26 @@
+@import "./variables.scss";
+
+@mixin flexCenter($direction: row) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+}
+
+@mixin lineClamp($line: 2) {
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@mixin paddingX() {
+  @media only screen and (min-width: 992px) {
+    padding-left: $paddingXMd;
+    padding-right: $paddingXMd;
+  }
+  @media only screen and (min-width: 1200px) {
+    padding-left: $paddingXLg;
+    padding-right: $paddingXLg;
+  }
+}

@@ -1,0 +1,93 @@
+@import "../../../styles";
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $colorPrimary;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+span,
+p {
+  color: $colorPrimary;
+  margin: 0;
+  padding: 0;
+}
+
+.headingFirst {
+  font-size: 45px;
+  line-height: 55px;
+  text-transform: uppercase;
+}
+
+.headingSecond {
+  font-size: 35px;
+  line-height: 43px;
+  color: $colorWhite;
+}
+
+.headingThird {
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.headingFourth {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.headingFifth {
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.subtitleFirst {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.subtitleSecond {
+  font-size: 20px;
+  line-height: 24px;
+  color: $colorWhite;
+}
+
+.subtitleThird {
+  font-size: 15px;
+  line-height: 19px;
+  color: $colorWhite;
+}
+
+.subtitleFourth {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.bodyTextFirst {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.bodyTextSecond {
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.captionFirst {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: lighter;
+  color: $colorWhite;
+}
+
+.captionSecond {
+  font-size: 11px;
+  line-height: 14px;
+  color: $colorWhite;
+}

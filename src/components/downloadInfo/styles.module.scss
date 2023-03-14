@@ -1,0 +1,62 @@
+@import "../../styles";
+
+.container {
+  @include flexCenter();
+  width: 100%;
+  height: 80px;
+  background-color: $colorBlueBaby;
+
+  .downloadInfo {
+    @include flexCenter();
+    justify-content: space-between;
+    width: 100%;
+    max-width: $widthMaxDesktop;
+    @include paddingX();
+
+    .title {
+      font-size: 20px;
+    }
+
+    .app {
+      @include flexCenter();
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      flex-grow: 1;
+      gap: 6px;
+      height: 40px;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    height: auto;
+
+    .downloadInfo {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      max-width: $widthMaxMobile;
+      padding: 25px 0;
+    }
+
+    .title {
+      font-size: 25px;
+      margin-bottom: 17px;
+    }
+
+    .app {
+      align-items: flex-start !important;
+      justify-content: flex-start !important;
+      height: unset !important;
+      gap: 12px !important;
+
+      img {
+        width: 165px;
+        height: 50px;
+      }
+    }
+  }
+}

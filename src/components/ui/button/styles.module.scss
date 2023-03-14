@@ -1,0 +1,55 @@
+@import "../../../styles";
+
+.button {
+  background-color: transparent;
+  border-radius: 3px;
+  opacity: 1;
+  transition: $transitionCubic25;
+  cursor: pointer;
+}
+
+.buttonSmall {
+  min-width: 100px;
+  height: 30px;
+  color: $colorPrimary;
+  font-size: 10px;
+  line-height: 13px;
+  padding: 8px 10px;
+  border: 1px solid $colorPrimary;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.buttonNormal {
+  min-width: 160px;
+  height: 48px;
+  color: $colorPrimary;
+  font-size: 15px;
+  line-height: 19px;
+  padding: 14px 16px;
+  border: 1px solid $colorPrimary;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.buttonLarge {
+  border-radius: unset;
+  min-width: 354px;
+  height: 77px;
+  padding: 26px 30px;
+  color: $colorWhite;
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: bold;
+  border: 3px solid $colorWhite;
+
+  &:hover {
+    background-color: $colorPrimary;
+    border: 3px solid $colorPrimary;
+  }
+}

@@ -1,0 +1,68 @@
+@import "../../styles";
+
+.container {
+  @include flexCenter($direction: column);
+  justify-content: flex-end;
+  gap: 8px;
+  position: fixed;
+  bottom: 110px;
+  right: $paddingXMd - 4px;
+  z-index: $zIndexMax;
+
+  @media only screen and (min-width: 1200px) {
+    right: $paddingXLg - 4px;
+  }
+
+  @media (max-width: 992px) {
+    right: 10px;
+  }
+
+  .round {
+    background-color: transparent;
+    border: 4px solid transparent;
+    border-radius: 50%;
+    transition: $transitionCubic25;
+
+    .icon {
+      width: 32px;
+      height: 32px;
+      padding: 8px;
+      background-color: $colorWhite;
+      border-radius: 50%;
+      box-shadow: $shadowIcon;
+      position: relative;
+
+      &:not(.iconShare) {
+        svg {
+          path {
+            fill: unset;
+            transition: $transitionCubic25;
+          }
+        }
+      }
+    }
+
+    &:hover {
+      border: 4px solid $colorBlueBaby;
+
+      .icon {
+        svg {
+          path {
+            fill: $colorPrimary;
+          }
+        }
+      }
+
+      .iconShare {
+        background-image: url(../ui/icon/icons/shareColor.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 16px;
+
+        svg {
+          display: none;
+        }
+      }
+    }
+  }
+}

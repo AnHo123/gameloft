@@ -1,0 +1,46 @@
+//width, height
+$widthMaxMobile: calc(100vw - 40px);
+$widthMaxDesktop: 1028px;
+$heightHeaderDesktop: 76px;
+$heightHeaderMobile: 50px;
+$heightSectionDesktop: 100vh;
+$heightSectionMobile: calc(100vh - 50px);
+
+//spacing
+$paddingXLg: 80px;
+$paddingXMd: 30px;
+
+// color
+$colorPrimary: #2699fb;
+$colorBlueBaby: #d8edff;
+$colorBlueLight: #edf7ff;
+$colorWhite: #ffffff;
+
+//background
+$backgroundGadient: transparent
+  linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat
+  padding-box;
+
+//box shadow
+$shadowIcon: 0px 1px 5px #00000026;
+
+//transition
+$transitionNormal: 0.3s all ease-out 0s;
+$transitionCubic25: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+$transitionCubic1s: all 1s cubic-bezier(0.4, 0, 0.2, 1);
+$transitionLinear05: all 0.5s linear;
+$transitionEaseInOut05: all 0.5s ease-in-out;
+
+//index
+$zIndexNegative: -1;
+$zIndex1: 10;
+$zIndex2: 20;
+$zIndex3: 30;
+$zIndex4: 40;
+$zIndex5: 50;
+$zIndex6: 60;
+$zIndex7: 70;
+$zIndex8: 80;
+$zIndex9: 90;
+$zIndexMin: 0;
+$zIndexMax: 100;
