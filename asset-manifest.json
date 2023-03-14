@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/gameloft/static/css/main.85806e45.css",
+    "main.js": "/gameloft/static/js/main.8065fa80.js",
+    "static/media/gameloftLogo.svg": "/gameloft/static/media/gameloftLogo.e3230b54927e1be7f59dae5723b4b858.svg",
+    "static/media/socialYoutube.svg": "/gameloft/static/media/socialYoutube.3753aea35afd229e4c948cdd1f23b12a.svg",
+    "static/media/socialLinkedIn.svg": "/gameloft/static/media/socialLinkedIn.b7ab601fca469a2567656efa3feaf6b9.svg",
+    "static/media/support.svg": "/gameloft/static/media/support.2c4a7ae932dd4ce71b57a9387a7709ef.svg",
+    "static/media/share.svg": "/gameloft/static/media/share.e773397366a8b3af94e05b7597863e40.svg",
+    "static/media/earth.svg": "/gameloft/static/media/earth.298f293b6449749bfb956a20c3ad761f.svg",
+    "static/media/socialTwitter.svg": "/gameloft/static/media/socialTwitter.891eca99e8ab87273acdcbb0b477146c.svg",
+    "static/media/download.svg": "/gameloft/static/media/download.aa2250c04bb0e3b8368c34810a64d783.svg",
+    "static/media/shareColor.svg": "/gameloft/static/media/shareColor.1e7bc4d882bd945b134d17c91ad3ebaa.svg",
+    "index.html": "/gameloft/index.html",
+    "static/media/menu.svg": "/gameloft/static/media/menu.a88fce7d2ce1ba1ac777d60df90fd530.svg",
+    "static/media/socialFacebookColor.svg": "/gameloft/static/media/socialFacebookColor.71d5c8fff88e38e51072871ed395840a.svg",
+    "static/media/eMail.svg": "/gameloft/static/media/eMail.1b2a356e612ba2f9c8861c84dcc2e942.svg",
+    "static/media/search.svg": "/gameloft/static/media/search.60b2c3678d3d0acb8b3ad2fca2ddbe0c.svg",
+    "static/media/starNormal.svg": "/gameloft/static/media/starNormal.92caea606572057691beca4910a88790.svg",
+    "static/media/starFull.svg": "/gameloft/static/media/starFull.ab0dd5341a4ac6405f741ff978c1c183.svg",
+    "static/media/socialFacebook.svg": "/gameloft/static/media/socialFacebook.7a56a21c7fc079c02e6591a6bcf9300e.svg",
+    "static/media/arrowLeft.svg": "/gameloft/static/media/arrowLeft.f145bdd5e4d7f17c3a63679923e00704.svg",
+    "static/media/arrowDown.svg": "/gameloft/static/media/arrowDown.4bdef5c48ac72b366889dde6408f4fc9.svg",
+    "static/media/arrowRight.svg": "/gameloft/static/media/arrowRight.d14ccd5007cd134811119be8828f53bf.svg",
+    "main.85806e45.css.map": "/gameloft/static/css/main.85806e45.css.map",
+    "main.8065fa80.js.map": "/gameloft/static/js/main.8065fa80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85806e45.css",
+    "static/js/main.8065fa80.js"
+  ]
+}
