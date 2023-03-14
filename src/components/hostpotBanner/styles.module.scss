@@ -48,7 +48,7 @@
 
         span {
           @include lineClamp($line: 3);
-          text-align: justify;
+          text-align: left;
         }
       }
     }
