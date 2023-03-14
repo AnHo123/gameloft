@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className={styles.container}>
       <div className={styles.header}>
-        <a href="/">
+        <a href="https://anho123.github.io/gameloft/">
           <Icon name="gameloftLogo" className={styles.iconLogo} />
         </a>
         <Icon

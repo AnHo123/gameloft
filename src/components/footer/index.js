@@ -16,16 +16,16 @@ function Footer() {
               Follow Us
             </Typography>
             <div className={styles.socials}>
-              <a href="/" target="_blank">
+              <a href="https://anho123.github.io/gameloft/" target="_blank">
                 <Icon name="socialFacebook" className={styles.iconFb} />
               </a>
-              <a href="/" target="_blank">
+              <a href="https://anho123.github.io/gameloft/" target="_blank">
                 <Icon name="socialLinkedIn" className={styles.icon} />
               </a>
-              <a href="/" target="_blank">
+              <a href="https://anho123.github.io/gameloft/" target="_blank">
                 <Icon name="socialTwitter" className={styles.icon} />
               </a>
-              <a href="/" target="_blank">
+              <a href="https://anho123.github.io/gameloft/" target="_blank">
                 <Icon name="socialYoutube" className={styles.icon} />
               </a>
             </div>
@@ -46,45 +46,45 @@ function Footer() {
               Visit
             </Typography>
             <ul className={styles.categoryList}>
-              <a href="/">
+              <a href="https://anho123.github.io/gameloft/">
                 <li className={styles.categoryItem}>
                   <Typography variant={"Subtitle_2"}>Gameloft Games</Typography>
                 </li>{" "}
               </a>
-              <a href="/">
+              <a href="https://anho123.github.io/gameloft/">
                 <li className={styles.categoryItem}>
                   <Typography variant={"Subtitle_2"}>
                     Gameloft Careers{" "}
                   </Typography>
                 </li>
               </a>
-              <a href="/">
+              <a href="https://anho123.github.io/gameloft/">
                 <li className={styles.categoryItem}>
                   <Typography variant={"Subtitle_2"}>Gameloft News </Typography>
                 </li>
               </a>
-              <a href="/">
+              <a href="https://anho123.github.io/gameloft/">
                 <li className={styles.categoryItem}>
                   <Typography variant={"Subtitle_2"}>
                     Gameloft Forum{" "}
                   </Typography>
                 </li>
               </a>
-              <a href="/">
+              <a href="https://anho123.github.io/gameloft/">
                 <li className={styles.categoryItem}>
                   <Typography variant={"Subtitle_2"}>
                     Gameloft Corporate{" "}
                   </Typography>
                 </li>
               </a>
-              <a href="/">
+              <a href="https://anho123.github.io/gameloft/">
                 <li className={styles.categoryItem}>
                   <Typography variant={"Subtitle_2"}>
                     Gameloft Advertising{" "}
                   </Typography>
                 </li>
               </a>
-              <a href="/">
+              <a href="https://anho123.github.io/gameloft/">
                 <li className={styles.categoryItem}>
                   <Typography variant={"Subtitle_2"}>
                     Gameloft Support{" "}
@@ -98,37 +98,37 @@ function Footer() {
               Legal
             </Typography>
             <ul className={styles.categoryList}>
-              <a href="/">
+              <a href="https://anho123.github.io/gameloft/">
                 <li className={styles.categoryItem}>
                   <Typography variant={"Subtitle_2"}>Terms of Use</Typography>
                 </li>
               </a>
-              <a href="/">
+              <a href="https://anho123.github.io/gameloft/">
                 <li className={styles.categoryItem}>
                   <Typography variant={"Subtitle_2"}>Privacy Policy</Typography>
                 </li>
               </a>
-              <a href="/">
+              <a href="https://anho123.github.io/gameloft/">
                 <li className={styles.categoryItem}>
                   <Typography variant={"Subtitle_2"}>Cookies Policy</Typography>
                 </li>
               </a>
-              <a href="/">
+              <a href="https://anho123.github.io/gameloft/">
                 <li className={styles.categoryItem}>
                   <Typography variant={"Subtitle_2"}>EULA </Typography>
                 </li>
               </a>
-              <a href="/">
+              <a href="https://anho123.github.io/gameloft/">
                 <li className={styles.categoryItem}>
                   <Typography variant={"Subtitle_2"}>Legal Notices </Typography>
                 </li>
               </a>
-              <a href="/">
+              <a href="https://anho123.github.io/gameloft/">
                 <li className={styles.categoryItem}>
                   <Typography variant={"Subtitle_2"}>Event Rules</Typography>
                 </li>
               </a>
-              <a href="/">
+              <a href="https://anho123.github.io/gameloft/">
                 <li className={styles.categoryItem}>
                   <Typography variant={"Subtitle_2"}>
                     Business Contacts

@@ -9,16 +9,16 @@ function DownloadInfo() {
           Download latest version{" "}
         </Typography>
         <div className={styles.app}>
-          <a href="/" target="_blank">
+          <a href="https://anho123.github.io/gameloft/" target="_blank">
             <img
               src="image/downloadNintendoEShop.png"
               alt="downloadNintendoEShop"
             />
           </a>
-          <a href="/" target="_blank">
+          <a href="https://anho123.github.io/gameloft/" target="_blank">
             <img src="image/downloadMicrosoft.png" alt="downloadMicrosoft" />
           </a>
-          <a href="/" target="_blank">
+          <a href="https://anho123.github.io/gameloft/" target="_blank">
             <img src="image/downloadSteam.png" alt="dowdownloadSteamnload" />
           </a>
         </div>
